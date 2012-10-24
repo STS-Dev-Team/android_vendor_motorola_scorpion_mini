@@ -212,7 +212,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libril.so:system/lib/libril.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    $(VENDOR_BLOB_FOLDER)/lib/librtp_jni.so:system/lib/librtp_jni.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsarqmictrl.so:system/lib/libsarqmictrl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
