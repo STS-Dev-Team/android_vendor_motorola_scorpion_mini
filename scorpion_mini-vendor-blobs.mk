@@ -16,6 +16,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/cnd:/system/bin/cnd \
     $(VENDOR_BLOB_FOLDER)/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     $(VENDOR_BLOB_FOLDER)/bin/enc_mgt_tool:/system/bin/enc_mgt_tool \
+    $(VENDOR_BLOB_FOLDER)/bin/fips_loader:/system/bin/fips_loader \
     $(VENDOR_BLOB_FOLDER)/bin/ftmdaemon:/system/bin/ftmdaemon \
     $(VENDOR_BLOB_FOLDER)/bin/ftmipcd:/system/bin/ftmipcd \
     $(VENDOR_BLOB_FOLDER)/bin/graphicsd:/system/bin/graphicsd \
