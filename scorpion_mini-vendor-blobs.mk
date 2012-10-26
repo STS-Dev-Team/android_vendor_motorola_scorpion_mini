@@ -83,6 +83,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    $(VENDOR_BLOB_FOLDER)/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
@@ -250,16 +251,16 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/tcp-connections.so:system/lib/tcp-connections.so
 
 # Blobs necessary for drm
-PRODUCT_COPY_FILES +=  \
-    $(VENDOR_BLOB_FOLDER)/lib/libfrsdk.so:system/lib/libfrsdk.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    $(VENDOR_BLOB_FOLDER)/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    $(VENDOR_BLOB_FOLDER)/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    $(VENDOR_BLOB_FOLDER)/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    $(VENDOR_BLOB_FOLDER)/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
+#PRODUCT_COPY_FILES +=  \
+#    $(VENDOR_BLOB_FOLDER)/lib/libfrsdk.so:system/lib/libfrsdk.so \
+#    $(VENDOR_BLOB_FOLDER)/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+#    $(VENDOR_BLOB_FOLDER)/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+#    $(VENDOR_BLOB_FOLDER)/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+#    $(VENDOR_BLOB_FOLDER)/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+#    $(VENDOR_BLOB_FOLDER)/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    drm.service.enabled=true
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    drm.service.enabled=true
 
 # Proprietary VZW blobs for LTE
 
