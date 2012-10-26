@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     $(VENDOR_BLOB_FOLDER)/etc/wifi/hostapd_default.conf:system/etc/wifi/hostapd_default.conf \
     $(VENDOR_BLOB_FOLDER)/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    $(VENDOR_BLOB_FOLDER)/etc/quipc.conf:system/etc/quipc.conf \
     $(VENDOR_BLOB_FOLDER)/etc/thermald.conf:system/etc/thermald.conf \
     $(VENDOR_BLOB_FOLDER)/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     $(VENDOR_BLOB_FOLDER)/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
