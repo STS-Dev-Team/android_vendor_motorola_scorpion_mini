@@ -14,6 +14,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/btnvtool:system/bin/btnvtool \
     $(VENDOR_BLOB_FOLDER)/bin/charge_only_mode:/system/bin/charge_only_mode \
     $(VENDOR_BLOB_FOLDER)/bin/cnd:/system/bin/cnd \
+    $(VENDOR_BLOB_FOLDER)/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     $(VENDOR_BLOB_FOLDER)/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     $(VENDOR_BLOB_FOLDER)/bin/enc_mgt_tool:/system/bin/enc_mgt_tool \
     $(VENDOR_BLOB_FOLDER)/bin/fips_loader:/system/bin/fips_loader \
@@ -24,6 +25,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/location-mq:/system/bin/location-mq \
     $(VENDOR_BLOB_FOLDER)/bin/mm-pp-daemon:/system/bin/mm-pp-daemon \
     $(VENDOR_BLOB_FOLDER)/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    $(VENDOR_BLOB_FOLDER)/bin/modemlog:system/bin/modemlog \
     $(VENDOR_BLOB_FOLDER)/bin/mot_boot_mode:system/bin/mot_boot_mode \
     $(VENDOR_BLOB_FOLDER)/bin/motobox:system/bin/motobox \
     $(VENDOR_BLOB_FOLDER)/bin/mount_ext4.sh:/system/bin/mount_ext4.sh \
@@ -47,6 +49,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/tcmdhelp:/system/bin/tcmdhelp \
     $(VENDOR_BLOB_FOLDER)/bin/thermald:system/bin/thermald \
     $(VENDOR_BLOB_FOLDER)/bin/wdsdaemon:system/bin/wdsdaemon \
+    $(VENDOR_BLOB_FOLDER)/bin/whisperd:system/bin/whisperd \
     $(VENDOR_BLOB_FOLDER)/bin/wiperiface_v02:system/bin/wiperiface_v02 \
     $(VENDOR_BLOB_FOLDER)/bin/xtwifi-client:system/bin/xtwifi-client \
     $(VENDOR_BLOB_FOLDER)/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
