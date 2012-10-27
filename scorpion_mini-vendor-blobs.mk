@@ -192,6 +192,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libpanorama.so:system/lib/libpanorama.so \
     $(VENDOR_BLOB_FOLDER)/lib/libpanorama_jni.so:system/lib/libpanorama_jni \
     $(VENDOR_BLOB_FOLDER)/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqc-opt.so:system/lib/libqc-opt.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqdi.so:system/lib/libqdi.so \
