@@ -87,6 +87,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    $(VENDOR_BLOB_FOLDER)/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
