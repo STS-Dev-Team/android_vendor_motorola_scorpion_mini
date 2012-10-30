@@ -55,6 +55,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/tcmd:/system/bin/tcmd \
     $(VENDOR_BLOB_FOLDER)/bin/tcmdhelp:/system/bin/tcmdhelp \
     $(VENDOR_BLOB_FOLDER)/bin/thermald:system/bin/thermald \
+    $(VENDOR_BLOB_FOLDER)/bin/time_daemon:system/bin/time_daemon \
+    $(VENDOR_BLOB_FOLDER)/bin/timedexec:system/bin/timedexec \
     $(VENDOR_BLOB_FOLDER)/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     $(VENDOR_BLOB_FOLDER)/bin/wdsdaemon:system/bin/wdsdaemon \
     $(VENDOR_BLOB_FOLDER)/bin/whisperd:system/bin/whisperd \
