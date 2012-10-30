@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/quipc_igsn:system/bin/quipc_igsn \
     $(VENDOR_BLOB_FOLDER)/bin/quipc_main:system/bin/quipc_main \
     $(VENDOR_BLOB_FOLDER)/bin/radish:system/bin/radish \
-    $(VENDOR_BLOB_FOLDER)/bin/rild:system/bin/rild \
     $(VENDOR_BLOB_FOLDER)/bin/rmt_storage:system/bin/rmt_storage \
     $(VENDOR_BLOB_FOLDER)/bin/sapd:system/bin/sapd \
     $(VENDOR_BLOB_FOLDER)/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -229,8 +228,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
     $(VENDOR_BLOB_FOLDER)/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
     $(VENDOR_BLOB_FOLDER)/lib/libQWiFiSoftApCfg.so:system/lib/libQWiFiSoftApCfg.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libril.so:system/lib/libril.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsarqmictrl.so:system/lib/libsarqmictrl.so \
