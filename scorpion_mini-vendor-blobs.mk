@@ -8,16 +8,20 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/ap_gain.bin:/system/bin/ap_gain.bin \
     $(VENDOR_BLOB_FOLDER)/bin/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
+    $(VENDOR_BLOB_FOLDER)/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \
     $(VENDOR_BLOB_FOLDER)/bin/batch:/system/bin/batch \
     $(VENDOR_BLOB_FOLDER)/bin/batt_health:/system/bin/batt_health \
     $(VENDOR_BLOB_FOLDER)/bin/bridgemgrd:system/bin/bridgemgrd \
     $(VENDOR_BLOB_FOLDER)/bin/btnvtool:system/bin/btnvtool \
     $(VENDOR_BLOB_FOLDER)/bin/charge_only_mode:/system/bin/charge_only_mode \
     $(VENDOR_BLOB_FOLDER)/bin/cnd:/system/bin/cnd \
+    $(VENDOR_BLOB_FOLDER)/bin/curl:/system/bin/curl \
     $(VENDOR_BLOB_FOLDER)/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     $(VENDOR_BLOB_FOLDER)/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+    $(VENDOR_BLOB_FOLDER)/bin/dun-server:/system/bin/dun-server \
     $(VENDOR_BLOB_FOLDER)/bin/enc_mgt_tool:/system/bin/enc_mgt_tool \
     $(VENDOR_BLOB_FOLDER)/bin/fips_loader:/system/bin/fips_loader \
+    $(VENDOR_BLOB_FOLDER)/bin/fmconfig:/system/bin/fmconfig \
     $(VENDOR_BLOB_FOLDER)/bin/ftmdaemon:/system/bin/ftmdaemon \
     $(VENDOR_BLOB_FOLDER)/bin/ftmipcd:/system/bin/ftmipcd \
     $(VENDOR_BLOB_FOLDER)/bin/graphicsd:/system/bin/graphicsd \
@@ -35,6 +39,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/nl_listener:system/bin/nl_listener \
     $(VENDOR_BLOB_FOLDER)/bin/port-bridge:system/bin/port-bridge \
     $(VENDOR_BLOB_FOLDER)/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    $(VENDOR_BLOB_FOLDER)/bin/qdumpd:system/bin/qdumpd \
     $(VENDOR_BLOB_FOLDER)/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     $(VENDOR_BLOB_FOLDER)/bin/qmiproxy:system/bin/qmiproxy \
     $(VENDOR_BLOB_FOLDER)/bin/qmuxd:system/bin/qmuxd \
@@ -42,12 +47,15 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/qseecomd:system/bin/qseecomd \
     $(VENDOR_BLOB_FOLDER)/bin/quipc_igsn:system/bin/quipc_igsn \
     $(VENDOR_BLOB_FOLDER)/bin/quipc_main:system/bin/quipc_main \
+    $(VENDOR_BLOB_FOLDER)/bin/radish:system/bin/radish \
     $(VENDOR_BLOB_FOLDER)/bin/rild:system/bin/rild \
     $(VENDOR_BLOB_FOLDER)/bin/rmt_storage:system/bin/rmt_storage \
+    $(VENDOR_BLOB_FOLDER)/bin/sapd:system/bin/sapd \
     $(VENDOR_BLOB_FOLDER)/bin/sensors.qcom:system/bin/sensors.qcom \
     $(VENDOR_BLOB_FOLDER)/bin/tcmd:/system/bin/tcmd \
     $(VENDOR_BLOB_FOLDER)/bin/tcmdhelp:/system/bin/tcmdhelp \
     $(VENDOR_BLOB_FOLDER)/bin/thermald:system/bin/thermald \
+    $(VENDOR_BLOB_FOLDER)/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     $(VENDOR_BLOB_FOLDER)/bin/wdsdaemon:system/bin/wdsdaemon \
     $(VENDOR_BLOB_FOLDER)/bin/whisperd:system/bin/whisperd \
     $(VENDOR_BLOB_FOLDER)/bin/wiperiface_v02:system/bin/wiperiface_v02 \
@@ -77,8 +85,11 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     $(VENDOR_BLOB_FOLDER)/etc/wifi/hostapd_default.conf:system/etc/wifi/hostapd_default.conf \
     $(VENDOR_BLOB_FOLDER)/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    $(VENDOR_BLOB_FOLDER)/etc/ecryptfs.tab:system/etc/ecryptfs.tab \
+    $(VENDOR_BLOB_FOLDER)/etc/encrypt.tab:system/etc/encrypt.tab \
     $(VENDOR_BLOB_FOLDER)/etc/quipc.conf:system/etc/quipc.conf \
     $(VENDOR_BLOB_FOLDER)/etc/thermald.conf:system/etc/thermald.conf \
+    $(VENDOR_BLOB_FOLDER)/etc/xtwifi.conf:system/etc/xtwifi.conf \
     $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -195,7 +206,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libopenssl-smime.so:system/lib/libopenssl-smime.so \
     $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/libOpenVG.so:system/lib/libOpenVG.so \
     $(VENDOR_BLOB_FOLDER)/lib/libpanorama.so:system/lib/libpanorama.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libpanorama_jni.so:system/lib/libpanorama_jni \
+    $(VENDOR_BLOB_FOLDER)/lib/libpanorama_jni.so:system/lib/libpanorama_jni.so \
     $(VENDOR_BLOB_FOLDER)/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
     $(VENDOR_BLOB_FOLDER)/lib/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
