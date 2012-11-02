@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/quipc_igsn:system/bin/quipc_igsn \
     $(VENDOR_BLOB_FOLDER)/bin/quipc_main:system/bin/quipc_main \
     $(VENDOR_BLOB_FOLDER)/bin/radish:system/bin/radish \
+    $(VENDOR_BLOB_FOLDER)/bin/recover_userdata:system/bin/recover_userdata \
     $(VENDOR_BLOB_FOLDER)/bin/rmt_storage:system/bin/rmt_storage \
     $(VENDOR_BLOB_FOLDER)/bin/sapd:system/bin/sapd \
     $(VENDOR_BLOB_FOLDER)/bin/sensors.qcom:system/bin/sensors.qcom \
