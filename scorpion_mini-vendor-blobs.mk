@@ -89,6 +89,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     $(VENDOR_BLOB_FOLDER)/etc/ecryptfs.tab:system/etc/ecryptfs.tab \
     $(VENDOR_BLOB_FOLDER)/etc/encrypt.tab:system/etc/encrypt.tab \
+    $(VENDOR_BLOB_FOLDER)/etc/qosmgr_rules.xml:system/etc/qosmgr_rules.xml \
     $(VENDOR_BLOB_FOLDER)/etc/quipc.conf:system/etc/quipc.conf \
     $(VENDOR_BLOB_FOLDER)/etc/thermald.conf:system/etc/thermald.conf \
     $(VENDOR_BLOB_FOLDER)/etc/xtwifi.conf:system/etc/xtwifi.conf \
