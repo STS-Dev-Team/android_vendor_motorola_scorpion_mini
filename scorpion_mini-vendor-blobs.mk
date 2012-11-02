@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/qmiproxy:system/bin/qmiproxy \
     $(VENDOR_BLOB_FOLDER)/bin/qmuxd:system/bin/qmuxd \
     $(VENDOR_BLOB_FOLDER)/bin/qosmgr:system/bin/qosmgr \
-    $(VENDOR_BLOB_FOLDER)/bin/qseecomd:system/bin/qseecomd \
     $(VENDOR_BLOB_FOLDER)/bin/quipc_igsn:system/bin/quipc_igsn \
     $(VENDOR_BLOB_FOLDER)/bin/quipc_main:system/bin/quipc_main \
     $(VENDOR_BLOB_FOLDER)/bin/radish:system/bin/radish \
@@ -225,7 +224,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqmiservices.so:system/lib/libqmiservices.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     $(VENDOR_BLOB_FOLDER)/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
     $(VENDOR_BLOB_FOLDER)/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
     $(VENDOR_BLOB_FOLDER)/lib/libQWiFiSoftApCfg.so:system/lib/libQWiFiSoftApCfg.so \
