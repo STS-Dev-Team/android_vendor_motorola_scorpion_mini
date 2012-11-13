@@ -69,6 +69,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_calibration.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_calibration.bin \
     $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_regulatory.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_regulatory.bin \
+    $(VENDOR_BLOB_FOLDER)/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
+    $(VENDOR_BLOB_FOLDER)/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
