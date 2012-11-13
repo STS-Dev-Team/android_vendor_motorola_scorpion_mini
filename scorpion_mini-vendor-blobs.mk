@@ -275,10 +275,3 @@ PRODUCT_COPY_FILES += \
 
 #PRODUCT_PROPERTY_OVERRIDES += \
 #    drm.service.enabled=true
-
-# Proprietary VZW blobs for LTE
-
-PRODUCT_PACKAGES += \
-	VZWAPNLib \
-	vzwapnpermission \
-	VZWAPNService
