@@ -55,13 +55,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/wiperiface_v02:system/bin/wiperiface_v02 \
     $(VENDOR_BLOB_FOLDER)/bin/xtwifi-client:system/bin/xtwifi-client \
     $(VENDOR_BLOB_FOLDER)/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/inis/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/inis/WCNSS_qcom_cfg.ini \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/inis/WCNSS_qcom_cfg.ini.es1:system/etc/firmware/wlan/prima/inis/WCNSS_qcom_cfg.ini.es1 \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_calibration.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_calibration.bin \
-    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_regulatory.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_regulatory.bin \
     $(VENDOR_BLOB_FOLDER)/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     $(VENDOR_BLOB_FOLDER)/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -272,3 +265,13 @@ PRODUCT_COPY_FILES += $(VENDOR_BLOB_FOLDER)/lib/libcutils.so:system/lib/libcutil
 
 #PRODUCT_PROPERTY_OVERRIDES += \
 #    drm.service.enabled=true
+
+# Stock wlan firmware
+#PRODUCT_COPY_FILES +=  \
+#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/inis/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/inis/WCNSS_qcom_cfg.ini \
+#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/inis/WCNSS_qcom_cfg.ini.es1:system/etc/firmware/wlan/prima/inis/WCNSS_qcom_cfg.ini.es1 \
+#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_calibration.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_calibration.bin \
+#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_regulatory.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_regulatory.bin \
