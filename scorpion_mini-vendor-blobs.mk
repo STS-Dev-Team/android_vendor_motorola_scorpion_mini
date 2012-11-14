@@ -10,10 +10,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
     $(VENDOR_BLOB_FOLDER)/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \
     $(VENDOR_BLOB_FOLDER)/bin/batch:/system/bin/batch \
-    $(VENDOR_BLOB_FOLDER)/bin/batt_health:/system/bin/batt_health \
     $(VENDOR_BLOB_FOLDER)/bin/bridgemgrd:system/bin/bridgemgrd \
     $(VENDOR_BLOB_FOLDER)/bin/btnvtool:system/bin/btnvtool \
-    $(VENDOR_BLOB_FOLDER)/bin/charge_only_mode:/system/bin/charge_only_mode \
     $(VENDOR_BLOB_FOLDER)/bin/cnd:/system/bin/cnd \
     $(VENDOR_BLOB_FOLDER)/bin/curl:/system/bin/curl \
     $(VENDOR_BLOB_FOLDER)/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
@@ -24,14 +22,10 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/fmconfig:/system/bin/fmconfig \
     $(VENDOR_BLOB_FOLDER)/bin/ftmdaemon:/system/bin/ftmdaemon \
     $(VENDOR_BLOB_FOLDER)/bin/ftmipcd:/system/bin/ftmipcd \
-    $(VENDOR_BLOB_FOLDER)/bin/graphicsd:/system/bin/graphicsd \
     $(VENDOR_BLOB_FOLDER)/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
     $(VENDOR_BLOB_FOLDER)/bin/location-mq:/system/bin/location-mq \
     $(VENDOR_BLOB_FOLDER)/bin/mm-pp-daemon:/system/bin/mm-pp-daemon \
     $(VENDOR_BLOB_FOLDER)/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    $(VENDOR_BLOB_FOLDER)/bin/modemlog:system/bin/modemlog \
-    $(VENDOR_BLOB_FOLDER)/bin/mot_boot_mode:system/bin/mot_boot_mode \
-    $(VENDOR_BLOB_FOLDER)/bin/motobox:system/bin/motobox \
     $(VENDOR_BLOB_FOLDER)/bin/mount_ext4.sh:/system/bin/mount_ext4.sh \
     $(VENDOR_BLOB_FOLDER)/bin/mountpds:system/bin/mountpds \
     $(VENDOR_BLOB_FOLDER)/bin/mpdecision:system/bin/mpdecision \
@@ -47,7 +41,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/quipc_igsn:system/bin/quipc_igsn \
     $(VENDOR_BLOB_FOLDER)/bin/quipc_main:system/bin/quipc_main \
     $(VENDOR_BLOB_FOLDER)/bin/radish:system/bin/radish \
-    $(VENDOR_BLOB_FOLDER)/bin/recover_userdata:system/bin/recover_userdata \
     $(VENDOR_BLOB_FOLDER)/bin/rmt_storage:system/bin/rmt_storage \
     $(VENDOR_BLOB_FOLDER)/bin/sapd:system/bin/sapd \
     $(VENDOR_BLOB_FOLDER)/bin/sensors.qcom:system/bin/sensors.qcom \
