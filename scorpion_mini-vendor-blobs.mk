@@ -38,6 +38,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/qmiproxy:system/bin/qmiproxy \
     $(VENDOR_BLOB_FOLDER)/bin/qmuxd:system/bin/qmuxd \
     $(VENDOR_BLOB_FOLDER)/bin/qosmgr:system/bin/qosmgr \
+    $(VENDOR_BLOB_FOLDER)/bin/qseecomd:system/bin/qseecomd \
+    $(VENDOR_BLOB_FOLDER)/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     $(VENDOR_BLOB_FOLDER)/bin/quipc_igsn:system/bin/quipc_igsn \
     $(VENDOR_BLOB_FOLDER)/bin/quipc_main:system/bin/quipc_main \
     $(VENDOR_BLOB_FOLDER)/bin/radish:system/bin/radish \
@@ -57,21 +59,14 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     $(VENDOR_BLOB_FOLDER)/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     $(VENDOR_BLOB_FOLDER)/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/atmxt-r2.tdat:system/etc/firmware/atmxt-r2.tdat \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
+    $(VENDOR_BLOB_FOLDER)/etc/firmware/atmxt-r2.tdat:system/etc/firmware/atmxt-r2.tdat \
+    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
+    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
+    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
+    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
+    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    $(VENDOR_BLOB_FOLDER)/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     $(VENDOR_BLOB_FOLDER)/etc/wifi/hostapd_default.conf:system/etc/wifi/hostapd_default.conf \
     $(VENDOR_BLOB_FOLDER)/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     $(VENDOR_BLOB_FOLDER)/etc/ecryptfs.tab:system/etc/ecryptfs.tab \
@@ -80,12 +75,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/etc/quipc.conf:system/etc/quipc.conf \
     $(VENDOR_BLOB_FOLDER)/etc/thermald.conf:system/etc/thermald.conf \
     $(VENDOR_BLOB_FOLDER)/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
@@ -101,7 +90,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libbabysit.so:system/lib/libbabysit.so \
     $(VENDOR_BLOB_FOLDER)/lib/libbson.so:system/lib/libbson.so \
     $(VENDOR_BLOB_FOLDER)/lib/libbt-aptx-4.0.4.so:system/lib/libbt-aptx-4.0.4.so \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/libC2D2.so:system/lib/libC2D2.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcaps.so:system/lib/libcaps.so \
     $(VENDOR_BLOB_FOLDER)/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
     $(VENDOR_BLOB_FOLDER)/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
@@ -144,7 +132,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libgemini.so:system/lib/libgemini.so \
     $(VENDOR_BLOB_FOLDER)/lib/libgps.so:system/lib/libgps.so \
     $(VENDOR_BLOB_FOLDER)/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/libgsl.so:system/lib/libgsl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libidl.so:system/lib/libidl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     $(VENDOR_BLOB_FOLDER)/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
@@ -192,7 +179,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     $(VENDOR_BLOB_FOLDER)/lib/libOpenCL.so:system/lib/libOpenCL.so \
     $(VENDOR_BLOB_FOLDER)/lib/libopenssl-smime.so:system/lib/libopenssl-smime.so \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/libOpenVG.so:system/lib/libOpenVG.so \
     $(VENDOR_BLOB_FOLDER)/lib/libpanorama.so:system/lib/libpanorama.so \
     $(VENDOR_BLOB_FOLDER)/lib/libpanorama_jni.so:system/lib/libpanorama_jni.so \
     $(VENDOR_BLOB_FOLDER)/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
@@ -217,7 +203,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsarqmictrl.so:system/lib/libsarqmictrl.so \
-    $(VENDOR_BLOB_FOLDER)/ics_adreno/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsensor1.so:system/lib/libsensor1.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsensorhub_jni.so:system/lib/libsensorhub_jni.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
@@ -241,10 +226,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     $(VENDOR_BLOB_FOLDER)/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
     $(VENDOR_BLOB_FOLDER)/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libwiperjni.so:system/lib/libwiperjni.so \
     $(VENDOR_BLOB_FOLDER)/lib/libwiperjni_v02.so:system/lib/libwiperjni_v02.so \
     $(VENDOR_BLOB_FOLDER)/lib/libxml.so:system/lib/libxml.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libxt_native.so:system/lib/libxt_native.so \
     $(VENDOR_BLOB_FOLDER)/lib/libxt_v02.so:system/lib/libxt_v02.so \
     $(VENDOR_BLOB_FOLDER)/lib/libxtwifi_ulp_adaptor.so:system/lib/libxtwifi_ulp_adaptor.so \
     $(VENDOR_BLOB_FOLDER)/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
@@ -255,23 +238,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += $(VENDOR_BLOB_FOLDER)/lib/libcutils.so:system/lib/libcutils.so
 
 # Blobs necessary for drm
-#PRODUCT_COPY_FILES +=  \
-#    $(VENDOR_BLOB_FOLDER)/lib/libfrsdk.so:system/lib/libfrsdk.so \
-#    $(VENDOR_BLOB_FOLDER)/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-#    $(VENDOR_BLOB_FOLDER)/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-#    $(VENDOR_BLOB_FOLDER)/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-#    $(VENDOR_BLOB_FOLDER)/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-#    $(VENDOR_BLOB_FOLDER)/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
+PRODUCT_COPY_FILES +=  \
+    $(VENDOR_BLOB_FOLDER)/lib/libfrsdk.so:system/lib/libfrsdk.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+    $(VENDOR_BLOB_FOLDER)/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    $(VENDOR_BLOB_FOLDER)/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    $(VENDOR_BLOB_FOLDER)/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    $(VENDOR_BLOB_FOLDER)/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
-#PRODUCT_PROPERTY_OVERRIDES += \
-#    drm.service.enabled=true
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true
 
-# Stock wlan firmware
-#PRODUCT_COPY_FILES +=  \
-#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/inis/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/inis/WCNSS_qcom_cfg.ini \
-#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/inis/WCNSS_qcom_cfg.ini.es1:system/etc/firmware/wlan/prima/inis/WCNSS_qcom_cfg.ini.es1 \
-#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_calibration.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_calibration.bin \
-#    $(VENDOR_BLOB_FOLDER)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_regulatory.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_regulatory.bin \
+PRODUCT_PACKAGES += \
+    libxt_native.so \
+    libwiperjni.so
