@@ -234,9 +234,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
     $(VENDOR_BLOB_FOLDER)/lib/tcp-connections.so:system/lib/tcp-connections.so
 
-# Use stock libcutils till moto source release
-PRODUCT_COPY_FILES += $(VENDOR_BLOB_FOLDER)/lib/libcutils.so:system/lib/libcutils.so
-
 # Blobs necessary for drm
 PRODUCT_COPY_FILES +=  \
     $(VENDOR_BLOB_FOLDER)/lib/libfrsdk.so:system/lib/libfrsdk.so \
