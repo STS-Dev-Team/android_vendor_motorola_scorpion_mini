@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
     $(VENDOR_BLOB_FOLDER)/bin/location-mq:/system/bin/location-mq \
     $(VENDOR_BLOB_FOLDER)/bin/mm-pp-daemon:/system/bin/mm-pp-daemon \
-    $(VENDOR_BLOB_FOLDER)/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     $(VENDOR_BLOB_FOLDER)/bin/mount_ext4.sh:/system/bin/mount_ext4.sh \
     $(VENDOR_BLOB_FOLDER)/bin/mountpds:system/bin/mountpds \
     $(VENDOR_BLOB_FOLDER)/bin/mpdecision:system/bin/mpdecision \
@@ -51,7 +50,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/thermald:system/bin/thermald \
     $(VENDOR_BLOB_FOLDER)/bin/time_daemon:system/bin/time_daemon \
     $(VENDOR_BLOB_FOLDER)/bin/timedexec:system/bin/timedexec \
-    $(VENDOR_BLOB_FOLDER)/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     $(VENDOR_BLOB_FOLDER)/bin/wdsdaemon:system/bin/wdsdaemon \
     $(VENDOR_BLOB_FOLDER)/bin/whisperd:system/bin/whisperd \
     $(VENDOR_BLOB_FOLDER)/bin/wiperiface_v02:system/bin/wiperiface_v02 \
@@ -75,7 +73,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/etc/quipc.conf:system/etc/quipc.conf \
     $(VENDOR_BLOB_FOLDER)/etc/thermald.conf:system/etc/thermald.conf \
     $(VENDOR_BLOB_FOLDER)/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    $(VENDOR_BLOB_FOLDER)/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
@@ -91,27 +88,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libbson.so:system/lib/libbson.so \
     $(VENDOR_BLOB_FOLDER)/lib/libbt-aptx-4.0.4.so:system/lib/libbt-aptx-4.0.4.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcaps.so:system/lib/libcaps.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_ov8820_default_video.so:system/lib/libchromatix_ov8820_default_video.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_ov8820_hfr_60fps.so:system/lib/libchromatix_ov8820_hfr_60fps.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_ov8820_preview.so:system/lib/libchromatix_ov8820_preview.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_ov8820_video_hd.so:system/lib/libchromatix_ov8820_video_hd.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_ov8820_zsl.so:system/lib/libchromatix_ov8820_zsl.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
@@ -145,9 +121,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libmm-abl.so:system/lib/libmm-abl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmmmpod.so:system/lib/libmmmpod.so \
@@ -171,7 +144,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libnetmgr.so:system/lib/libnetmgr.so \
     $(VENDOR_BLOB_FOLDER)/lib/libnfcpn544c3_fw.so:system/lib/libnfcpn544c3_fw.so \
     $(VENDOR_BLOB_FOLDER)/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
-    $(VENDOR_BLOB_FOLDER)/lib/liboemcamera.so:system/lib/liboemcamera.so \
     $(VENDOR_BLOB_FOLDER)/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     $(VENDOR_BLOB_FOLDER)/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     $(VENDOR_BLOB_FOLDER)/lib/libOmxMux.so:system/lib/libOmxMux.so \
@@ -208,7 +180,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     $(VENDOR_BLOB_FOLDER)/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     $(VENDOR_BLOB_FOLDER)/lib/libsurround_proc.so:system/lib/libsurround_proc.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libtcmdcameraservice.so:system/lib/libtcmdcameraservice.so \
     $(VENDOR_BLOB_FOLDER)/lib/libtexture_mem.so:system/lib/libtexture_mem.so \
     $(VENDOR_BLOB_FOLDER)/lib/libtpa.so:system/lib/libtpa.so \
     $(VENDOR_BLOB_FOLDER)/lib/libtpa_core.so:system/lib/libtpa_core.so \

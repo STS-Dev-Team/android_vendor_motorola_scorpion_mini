@@ -1,6 +1,6 @@
 VENDOR_BLOB_FOLDER := vendor/motorola/scorpion_mini/proprietary
 
-# Stock ICS adreno blobs
+# Stock JB adreno blobs
 PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     $(VENDOR_BLOB_FOLDER)/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
