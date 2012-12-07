@@ -13,7 +13,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/bridgemgrd:system/bin/bridgemgrd \
     $(VENDOR_BLOB_FOLDER)/bin/btnvtool:system/bin/btnvtool \
     $(VENDOR_BLOB_FOLDER)/bin/cnd:/system/bin/cnd \
-    $(VENDOR_BLOB_FOLDER)/bin/curl:/system/bin/curl \
     $(VENDOR_BLOB_FOLDER)/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     $(VENDOR_BLOB_FOLDER)/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     $(VENDOR_BLOB_FOLDER)/bin/dun-server:/system/bin/dun-server \
@@ -39,8 +38,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/qosmgr:system/bin/qosmgr \
     $(VENDOR_BLOB_FOLDER)/bin/qseecomd:system/bin/qseecomd \
     $(VENDOR_BLOB_FOLDER)/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
-    $(VENDOR_BLOB_FOLDER)/bin/quipc_igsn:system/bin/quipc_igsn \
-    $(VENDOR_BLOB_FOLDER)/bin/quipc_main:system/bin/quipc_main \
     $(VENDOR_BLOB_FOLDER)/bin/radish:system/bin/radish \
     $(VENDOR_BLOB_FOLDER)/bin/rmt_storage:system/bin/rmt_storage \
     $(VENDOR_BLOB_FOLDER)/bin/sapd:system/bin/sapd \
@@ -52,7 +49,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/timedexec:system/bin/timedexec \
     $(VENDOR_BLOB_FOLDER)/bin/wdsdaemon:system/bin/wdsdaemon \
     $(VENDOR_BLOB_FOLDER)/bin/whisperd:system/bin/whisperd \
-    $(VENDOR_BLOB_FOLDER)/bin/wiperiface_v02:system/bin/wiperiface_v02 \
     $(VENDOR_BLOB_FOLDER)/bin/xtwifi-client:system/bin/xtwifi-client \
     $(VENDOR_BLOB_FOLDER)/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     $(VENDOR_BLOB_FOLDER)/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
@@ -73,7 +69,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/etc/quipc.conf:system/etc/quipc.conf \
     $(VENDOR_BLOB_FOLDER)/etc/thermald.conf:system/etc/thermald.conf \
     $(VENDOR_BLOB_FOLDER)/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    $(VENDOR_BLOB_FOLDER)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
@@ -85,7 +80,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libaudcal.so:system/lib/libaudcal.so \
     $(VENDOR_BLOB_FOLDER)/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     $(VENDOR_BLOB_FOLDER)/lib/libbabysit.so:system/lib/libbabysit.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libbson.so:system/lib/libbson.so \
     $(VENDOR_BLOB_FOLDER)/lib/libbt-aptx-4.0.4.so:system/lib/libbt-aptx-4.0.4.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcaps.so:system/lib/libcaps.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
@@ -93,7 +87,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcneutils.so:system/lib/libcneutils.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcsd-client.so:system/lib/libcsd-client.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libcurl.so:system/lib/libcurl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libdataencrypt_openssl.so:system/lib/libdataencrypt_openssl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libdataencrypt_utils.so:system/lib/libdataencrypt_utils.so \
     $(VENDOR_BLOB_FOLDER)/lib/libdiag.so:system/lib/libdiag.so \
@@ -106,17 +99,13 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libdsutils.so:system/lib/libdsutils.so \
     $(VENDOR_BLOB_FOLDER)/lib/libFileMux.so:system/lib/libFileMux.so \
     $(VENDOR_BLOB_FOLDER)/lib/libgemini.so:system/lib/libgemini.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libgps.so:system/lib/libgps.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libgps.utils.so:system/lib/libgps.utils.so \
     $(VENDOR_BLOB_FOLDER)/lib/libidl.so:system/lib/libidl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     $(VENDOR_BLOB_FOLDER)/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     $(VENDOR_BLOB_FOLDER)/lib/libimssettings.so:system/lib/libimssettings.so \
     $(VENDOR_BLOB_FOLDER)/lib/liblatency.so:system/lib/liblatency.so \
     $(VENDOR_BLOB_FOLDER)/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     $(VENDOR_BLOB_FOLDER)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libloc_eng.so:system/lib/libloc_eng.so \
     $(VENDOR_BLOB_FOLDER)/lib/libloc_ext.so:system/lib/libloc_ext.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmm-abl.so:system/lib/libmm-abl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
@@ -169,8 +158,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqmiservices.so:system/lib/libqmiservices.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
     $(VENDOR_BLOB_FOLDER)/lib/libQWiFiSoftApCfg.so:system/lib/libQWiFiSoftApCfg.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
@@ -196,8 +183,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
     $(VENDOR_BLOB_FOLDER)/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     $(VENDOR_BLOB_FOLDER)/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libwiperjni_v02.so:system/lib/libwiperjni_v02.so \
     $(VENDOR_BLOB_FOLDER)/lib/libxml.so:system/lib/libxml.so \
     $(VENDOR_BLOB_FOLDER)/lib/libxt_v02.so:system/lib/libxt_v02.so \
     $(VENDOR_BLOB_FOLDER)/lib/libxtwifi_ulp_adaptor.so:system/lib/libxtwifi_ulp_adaptor.so \
@@ -218,5 +203,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
 
 PRODUCT_PACKAGES += \
-    libxt_native.so \
-    libwiperjni.so
+    libxt_native.so
