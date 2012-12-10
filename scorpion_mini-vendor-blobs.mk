@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/etc/ecryptfs.tab:system/etc/ecryptfs.tab \
     $(VENDOR_BLOB_FOLDER)/etc/encrypt.tab:system/etc/encrypt.tab \
     $(VENDOR_BLOB_FOLDER)/etc/qosmgr_rules.xml:system/etc/qosmgr_rules.xml \
-    $(VENDOR_BLOB_FOLDER)/etc/quipc.conf:system/etc/quipc.conf \
     $(VENDOR_BLOB_FOLDER)/etc/thermald.conf:system/etc/thermald.conf \
     $(VENDOR_BLOB_FOLDER)/etc/xtwifi.conf:system/etc/xtwifi.conf \
     $(VENDOR_BLOB_FOLDER)/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
@@ -105,7 +104,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libimssettings.so:system/lib/libimssettings.so \
     $(VENDOR_BLOB_FOLDER)/lib/liblatency.so:system/lib/liblatency.so \
     $(VENDOR_BLOB_FOLDER)/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-    $(VENDOR_BLOB_FOLDER)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     $(VENDOR_BLOB_FOLDER)/lib/libloc_ext.so:system/lib/libloc_ext.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmm-abl.so:system/lib/libmm-abl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
