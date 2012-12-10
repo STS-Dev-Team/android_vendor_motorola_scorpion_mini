@@ -85,6 +85,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcneutils.so:system/lib/libcneutils.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     $(VENDOR_BLOB_FOLDER)/lib/libcsd-client.so:system/lib/libcsd-client.so \
     $(VENDOR_BLOB_FOLDER)/lib/libdataencrypt_openssl.so:system/lib/libdataencrypt_openssl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libdataencrypt_utils.so:system/lib/libdataencrypt_utils.so \
@@ -98,6 +99,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libdsutils.so:system/lib/libdsutils.so \
     $(VENDOR_BLOB_FOLDER)/lib/libFileMux.so:system/lib/libFileMux.so \
     $(VENDOR_BLOB_FOLDER)/lib/libgemini.so:system/lib/libgemini.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     $(VENDOR_BLOB_FOLDER)/lib/libidl.so:system/lib/libidl.so \
     $(VENDOR_BLOB_FOLDER)/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     $(VENDOR_BLOB_FOLDER)/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
@@ -156,6 +158,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqmiservices.so:system/lib/libqmiservices.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     $(VENDOR_BLOB_FOLDER)/lib/libQWiFiSoftApCfg.so:system/lib/libQWiFiSoftApCfg.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
